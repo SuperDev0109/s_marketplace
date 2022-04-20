@@ -1,0 +1,94 @@
+.tokenfactorypage {
+  .pageportal {
+    margin-top: 40px;
+    margin-bottom: 140px;
+    padding-top: 40px;
+    .chakra-tabs {
+      margin-top: 40px;
+      .chakra-tabs__tablist {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 27px;
+        /* identical to box height */
+
+        text-align: center;
+
+        color: rgba(0, 40, 104, 0.5);
+      }
+      .chakra-tabs__tab-panels {
+        .crow-select {
+          font-family: Poppins;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 16px;
+          /* identical to box height */
+          color: #002868;
+          .crow__control {
+            padding: 5px;
+            border: 1px solid;
+          }
+          max-width: 400px;
+          input {
+            display: none;
+          }
+        }
+        .createtoken {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          margin-top: 40px;
+          .createtoken-left {
+            width: 50%;
+            max-width: 462px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            input {
+              margin-top: 18px;
+            }
+            button {
+              margin-top: 24px;
+            }
+          }
+          .createtoken-right {
+            margin-left: 80px;
+            display: flex;
+
+            flex-direction: column;
+            align-items: flex-start;
+            font-family: Poppins;
+            font-style: normal;
+            width: 50%;
+            max-width: 391px;
+            color: #002868;
+
+            .createtoken-instruction-title {
+              font-weight: 500;
+              font-size: 18px;
+            }
+            .createtoken-instruction-description {
+              margin-top: 10px;
+              font-size: 13px;
+              text-align: left;
+            }
+          }
+        }
+        @media only screen and (max-width: 576px) {
+          .createtoken {
+            flex-direction: column;
+            .createtoken-left {
+              width: 100%;
+            }
+            .createtoken-right {
+              width: 100%;
+              margin-left: 0px;
+              margin-top: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

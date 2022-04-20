@@ -1,0 +1,52 @@
+.launchpadpage {
+  .crow-page {
+    .pageportal {
+      margin-top: 40px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      .pageportal-title {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 36px;
+        /* identical to box height */
+
+        color: #002868;
+        margin-top: 80px;
+        text-align: center;
+      }
+      button {
+        margin-top: 24px;
+        margin-bottom: 80px;
+      }
+    }
+    .pageportal-tokenstatusportal-group {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+
+      margin-top: 100px;
+      margin-bottom: 140px;
+      gap: 40px;
+
+      .tokenstatusportal {
+        width: 30%;
+      }
+      @media only screen and (max-width: 1200px) {
+        .tokenstatusportal {
+          width: 47%;
+        }
+      }
+      @media only screen and (max-width: 790px) {
+        .tokenstatusportal {
+          width: 100%;
+        }
+      }
+    }
+  }
+}

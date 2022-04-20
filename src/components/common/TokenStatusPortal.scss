@@ -1,0 +1,127 @@
+.tokenstatusportal {
+  display: flex;
+  background: rgba(0, 40, 104, 0.02);
+  box-shadow: 0px 4px 10px 1px rgba(0, 40, 104, 0.2);
+  border-radius: 20px;
+  //max-width: 405px;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  .tokenstatusportal-header {
+    display: flex;
+    flex-direction: row;
+    margin-top: 26px;
+    width: 100%;
+    padding: 0px 36px;
+    align-items: center;
+    justify-content: space-between;
+    .tokenstatusportal-header-left {
+      display: flex;
+      flex-direction: row;
+
+      align-items: center;
+      .tokenstatusportal-header-logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        width: 64px;
+        height: 64px;
+        background: #ffffff;
+        border-radius: 10px;
+      }
+      .tokenstatusportal-header-token {
+        display: flex;
+        flex-direction: column;
+        margin-left: 16px;
+        .tokenstatusportal-header-token-title {
+          font-family: Poppins;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 18px;
+          line-height: 27px;
+          color: #002868;
+        }
+        .tokenstatusportal-header-token-description {
+          font-family: Poppins;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 21px;
+
+          color: rgba(0, 40, 104, 0.5);
+        }
+      }
+    }
+    .tokenstatusportal-header-right {
+      background: #ffffff;
+      border: 1px solid rgba(0, 40, 104, 0.3);
+      box-sizing: border-box;
+      border-radius: 40px;
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 21px;
+      color: #002868;
+      padding: 10px 17px;
+      text-align: center;
+    }
+  }
+  .tokenstatusportal-content {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 21px;
+    text-align: center;
+    color: rgba(0, 40, 104, 0.7);
+    .tokenstatusportal-content-percent-circle {
+      width: 148px;
+      height: 148px;
+      border-radius: 148px;
+      background: #ffffff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 40px;
+      line-height: 60px;
+      color: #002868;
+    }
+    .tokenstatusportal-content-percent-line {
+      margin-top: 20px;
+      width: 70%;
+      height: 8px;
+      background: #002868;
+      border-radius: 8px;
+    }
+    .tokenstatusportal-content-raised-softcap {
+      margin-top: 32px;
+      font-size: 14px;
+
+      text-align: center;
+    }
+    .tokenstatusportal-content-max {
+      margin-top: 30px;
+      font-size: 18px;
+      font-weight: 600;
+    }
+    .tokenstatusportal-content-presale-status {
+      margin-top: 40px;
+      margin-bottom: 40px;
+    }
+  }
+  @media only screen and (max-width: 576px) {
+    .tokenstatusportal-header {
+      flex-direction: column;
+      gap: 20px;
+    }
+  }
+}

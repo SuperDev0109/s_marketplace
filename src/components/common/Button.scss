@@ -1,0 +1,18 @@
+.crow-button {
+  background: #002868;
+  border-radius: 10px;
+  padding: 16px 62px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+  color: #ecf3f9;
+}
+.crow-button:hover {
+  background: #133772;
+}
+.crow-button:active {
+  background: #00173b;
+}

@@ -1,0 +1,33 @@
+.crow-page {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 56px;
+  background: linear-gradient(
+    180deg,
+    #cfe8ff 0%,
+    #ffffff 41.67%,
+    #cfe8ff 73.81%,
+    #ffffff 100%
+  );
+  .crow-page-header {
+    display: flex;
+    flex-direction: column;
+    margin-top: 126px;
+    .crow-page-header-title {
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 40px;
+      line-height: 60px;
+      color: #002868;
+    }
+    .crow-page-header-description {
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 30px;
+      color: rgba(0, 40, 104, 0.6);
+    }
+  }
+}

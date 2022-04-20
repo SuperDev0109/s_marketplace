@@ -1,0 +1,21 @@
+.pageportalstatus {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Poppins;
+  font-style: normal;
+
+  text-align: center;
+
+  color: #002868;
+  .pageportalstatus-number {
+    font-weight: 500;
+    font-size: 50px;
+  }
+  .pageportalstatus-unit {
+    font-size: 18px;
+  }
+  .pageportalstatus-description {
+    font-size: 20px;
+  }
+}

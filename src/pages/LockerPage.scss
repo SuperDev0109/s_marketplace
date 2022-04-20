@@ -1,0 +1,194 @@
+.lockerpage {
+  .pageportal {
+    margin-top: 40px;
+    margin-bottom: 92px;
+    padding-top: 40px;
+    .chakra-tabs {
+      margin-top: 40px;
+      .chakra-tabs__tablist {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        /* identical to box height */
+
+        text-align: center;
+
+        color: rgba(0, 40, 104, 0.5);
+      }
+      @media only screen and (max-width: 576px) {
+        .chakra-tabs__tablist {
+          flex-direction: column;
+        }
+      }
+      .chakra-tabs__tab-panels {
+        .locktoken {
+          margin-top: 24px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+
+          .locktoken-content {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+
+            gap: 60px;
+            .locktoken-input {
+              width: 40%;
+              display: flex;
+              flex-direction: column;
+              align-items: flex-start;
+              .locktoken-input-description {
+                margin-top: 16px;
+                font-family: Poppins;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 12px;
+                line-height: 18px;
+                /* identical to box height */
+
+                color: #002868;
+              }
+            }
+            .locktoken-instruction {
+              width: 40%;
+              display: flex;
+              flex-direction: column;
+              align-items: flex-start;
+              .locktoken-instruction-title {
+                text-align: left;
+                font-family: Poppins;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 18px;
+                color: #002868;
+              }
+              .locktoken-instruction-description {
+                margin-top: 10px;
+                font-family: Poppins;
+                font-style: normal;
+                font-size: 13px;
+                color: #002868;
+                text-align: left;
+              }
+            }
+            @media only screen and (max-width: 576px) {
+              flex-direction: column;
+              .locktoken-input {
+                width: 100%;
+              }
+              .locktoken-instruction {
+                width: 100%;
+              }
+            }
+          }
+          .crow-button {
+            margin-top: 40px;
+          }
+        }
+        .lockliquidity {
+          margin-top: 24px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+
+          .lockliquidity-content {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+
+            gap: 60px;
+            .lockliquidity-input {
+              width: 40%;
+              display: flex;
+              flex-direction: column;
+              align-items: flex-start;
+              .lockliquidity-input-description {
+                margin-top: 16px;
+                font-family: Poppins;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 12px;
+                line-height: 18px;
+                /* identical to box height */
+
+                color: #002868;
+              }
+            }
+            .lockliquidity-instruction {
+              width: 40%;
+              display: flex;
+              flex-direction: column;
+              align-items: flex-start;
+              .lockliquidity-instruction-title {
+                text-align: left;
+                font-family: Poppins;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 18px;
+                color: #002868;
+              }
+              .lockliquidity-instruction-description {
+                margin-top: 10px;
+                font-family: Poppins;
+                font-style: normal;
+                font-size: 13px;
+                color: #002868;
+                text-align: left;
+              }
+            }
+            @media only screen and (max-width: 576px) {
+              flex-direction: column;
+              .lockliquidity-input {
+                width: 100%;
+              }
+              .lockliquidity-instruction {
+                width: 100%;
+              }
+            }
+          }
+          .crow-button {
+            margin-top: 40px;
+          }
+        }
+        .viewalllockers {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          .chakra-input {
+            margin-top: 8px;
+          }
+          .crow-button {
+            margin-top: 24px;
+          }
+          .viewalllockers-lockerstatusportal-group {
+            width: 90%;
+            margin-top: 32px;
+            margin-bottom: 32px;
+            padding-left: 16px;
+            padding-right: 16px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 40px;
+            .lockerstatusportal {
+              width: 30%;
+            }
+            @media only screen and (max-width: 1200px) {
+              .lockerstatusportal {
+                width: 47%;
+              }
+            }
+            @media only screen and (max-width: 790px) {
+              .lockerstatusportal {
+                width: 100%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,100 @@
+.lockerstatusportal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background: rgba(0, 40, 104, 0.02);
+  box-shadow: 0px 4px 10px 1px rgba(0, 40, 104, 0.2);
+  border-radius: 20px;
+  padding-top: 40px;
+  padding-bottom: 32px;
+  .lockerstatusportal-title {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+
+    color: #002868;
+  }
+  .lockerstatusportal-ends {
+    margin-top: 16px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: rgba(0, 40, 104, 0.5);
+  }
+  .lockerstatusportal-timeleft {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 24px;
+    .lockerstatusportal-timeleft-item {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      .lockerstatusportal-timeleft-item-number {
+        width: 50px;
+        height: 50px;
+        background: rgba(0, 40, 104, 0.1);
+        border-radius: 6px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 17px;
+        color: #002868;
+      }
+      .lockerstatusportal-timeleft-item-unit {
+        margin-top: 8px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px;
+        color: rgba(0, 40, 104, 0.5);
+      }
+    }
+    @media only screen and (max-width: 576px) {
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
+  .lockerstatusportal-description {
+    margin-top: 24px;
+    .lockerstatusportal-description-title {
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 21px;
+      text-align: center;
+
+      color: rgba(0, 40, 104, 0.5);
+    }
+    .lockerstatusportal-description-number {
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 21px;
+      text-align: center;
+
+      color: rgba(0, 40, 104, 1);
+    }
+  }
+}

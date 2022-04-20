@@ -1,0 +1,56 @@
+{
+  "name": "crowpad-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@chakra-ui/react": "^1.0.0",
+    "@emotion/react": "^11.0.0",
+    "@emotion/styled": "^11.0.0",
+    "@openzeppelin/contracts": "^4.2.0",
+    "@testing-library/jest-dom": "^5.9.0",
+    "@testing-library/react": "^10.2.1",
+    "@testing-library/user-event": "^12.0.2",
+    "bootstrap": "5.1.3",
+    "chai": "^4.3.4",
+    "chai-as-promised": "^7.1.1",
+    "framer-motion": "^4.0.0",
+    "ipfs-http-client": "^52.0.0",
+    "node-sass": "4.14.1",
+    "prop-types": "^15.8.1",
+    "react": "^17.0.2",
+    "react-bootstrap": "^2.1.0",
+    "react-dom": "^17.0.2",
+    "react-icons": "^3.0.0",
+    "react-redux": "^7.2.6",
+    "react-router-dom": "^6.2.1",
+    "react-scripts": "4.0.3",
+    "react-select": "^5.2.1",
+    "redux": "^4.1.2",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-thunk": "^2.4.1",
+    "web-vitals": "^1.0.1",
+    "web3": "^1.5.1",
+    "web3-eth-contract": "^1.5.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+.crow-portalbadge {
+  box-sizing: border-box;
+  width: 232px;
+  height: 138px;
+  background: rgba(5, 5, 5, 0.05);
+  border-radius: 15px;
+  font-family: Poppins;
+  font-style: normal;
+  padding: 17px;
+
+  /* or 112% */
+
+  text-align: center;
+  color: #002868;
+  .crow-portalbadge-number {
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 70px;
+  }
+  .crow-portalbadge-description {
+    font-size: 20px;
+  }
+}
